@@ -1,5 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import Footer from "./components/Nav";
+import { BrowserRouter as Router, Route} from "react-router-dom"
+import Home from "./pages-20230722T003356Z-001/pages/Home"
+import Books from "./pages-20230722T003356Z-001/pages/Books"
+import { books } from "./data";
+import BookInfo from "./pages-20230722T003356Z-001/pages/BookInfo";
 
 function App() {
   return (
